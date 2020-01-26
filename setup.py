@@ -6,7 +6,7 @@ with open('README.md', 'r') as f:
 
 setuptools.setup(
 	name='dizzy-dj',
-	version='2.0',
+	version='2.0.1',
 	author="Kaustubh Dixit",
 	author_email='kaustubh.29.dixit@gmail.com',
 	description='YouTube video to mp3 converter',
