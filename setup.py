@@ -14,7 +14,7 @@ setuptools.setup(
 	long_description_content_type='text/markdown',
 	url='https://github.com/kaustubh-ai/Youtube-To-Mp3',
 	packages=setuptools.find_packages(),
-	install_requires=['Selenium>=3'],
+	install_requires=['Selenium>=3', 'beautifulsoup4', 'requests'],
 	python_requires='>=3',
 	classifiers=[
 		'Programming Language :: Python :: 3',
