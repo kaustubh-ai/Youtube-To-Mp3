@@ -5,7 +5,7 @@ with open('README.md', 'r') as f:
 	long_description = f.read()
 
 setuptools.setup(
-	name='xanaaaaa',
+	name='dizzy-dj',
 	version='2.0',
 	author="Kaustubh Dixit",
 	author_email='kaustubh.29.dixit@gmail.com',
