@@ -11,7 +11,9 @@ Converts the YouTube videos stored in your playlist to mp3 files (best used for 
 ***
 
 <a name="installation"/>
+
 ## Installation
+
 **Installation with pip:**  Type this in the terminal:<br/>
 `pip install dizzy-dj`
 
@@ -37,9 +39,10 @@ obj.download()
 Download chromedrive.exe from [this](https://chromedriver.chromium.org/downloads) link.<br/>
 Check your chrome version from [this](https://support.chall.com/hc/en-us/articles/200336349-How-do-I-determine-what-version-of-Google-Chrome-I-m-using-) link.
 
-.........................................................................................................................................................................................................................................................
-<a name="contribute"/>
+***
+
 ## Contribute
+
 1.  Fork the repository from Github
 2.  Clone your fork
 
