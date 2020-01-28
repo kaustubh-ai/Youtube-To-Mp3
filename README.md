@@ -3,10 +3,18 @@
 Converts the YouTube videos stored in your playlist to mp3 files (best used for songs!)
 
 ### Table of Contents
-1. [Installation](#installation)
-2. [Project Motivation](#motivation)
+1. [Project Motivation](#motivation)
+2. [Installation](#installation)
 3. [Usage](#usage)
 4. [Contribute](#contribute)
+
+***
+
+<a name="motivation"/>
+
+## Project Motivation
+
+You know the drill---You find a great song on YouTube, and wish there was an mp3 for offline listening. Well, wishes do come true!
 
 ***
 
@@ -17,13 +25,12 @@ Converts the YouTube videos stored in your playlist to mp3 files (best used for 
 **Installation with pip:**  Type this in the terminal:<br/>
 `pip install dizzy-dj`
 
-.........................................................................................................................................................................................................................................................
-<a name="motivation"/>
-## Project Motivation
-You know the drill---You find a great song on YouTube, and wish there was an mp3 for offline listening. Well, wishes do come true!
+***
 
 <a name="usage"/>
+
 ## Usage
+
 Here's a sample usage demonstration:
 ```
 from dizzydj import Downloader
