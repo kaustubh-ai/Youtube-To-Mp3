@@ -35,15 +35,22 @@ Here's a sample usage demonstration:
 ```
 from dizzydj import Downloader
 
-# 'Music' is the playlist name
-# Make sure to add the 'r' for chromedriver.exe path
-# '320' is the music quality in kbps
 
-obj = Downloader.Downloader('email@gmail.com', 'Music', r'path/to/chromedriver.exe', '320')
-# Enter password when prompted
+playlist = 'https://www.youtube.com/playlist?list=PL__7grx6zYyDAIzTQ5tWVv2SZjvgzLziN'
+chrome_path = 'path\\to\\chromedriver.exe'
+quality = '320'
+rename = True
+
+# 'playlist' is the playlist name
+# 'chrome_path' is the chromedriver.exe path
+# '320' is the music quality in kbps
+# 'rename' is for renaming files or not
+
+obj = downloader.Downloader(playlist, chrome_path, quality, rename)
 obj.download()
 ``` 
-Download chromedrive.exe from [this](https://chromedriver.chromium.org/downloads) link.<br/>
+
+Download `chromedrive.exe` from [this](https://chromedriver.chromium.org/downloads) link.<br/>
 Check your chrome version from [this](https://support.chall.com/hc/en-us/articles/200336349-How-do-I-determine-what-version-of-Google-Chrome-I-m-using-) link.
 
 ***
